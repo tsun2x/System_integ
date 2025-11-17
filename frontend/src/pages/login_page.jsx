@@ -18,7 +18,7 @@ function LoginPage() {
     password: ''
   });
 
-  const apiUrl = 'http://localhost/workout/react-api/API/login.php';
+  const apiUrl = 'http://localhost/SI_workout-main/react-api/API/login.php';
 
   const handleSubmit = async (e) => {
     e.preventDefault();

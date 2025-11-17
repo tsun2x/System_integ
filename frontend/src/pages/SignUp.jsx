@@ -20,7 +20,7 @@ function SignUp() {
 
   });
 
-  const apiUrl = 'http://localhost/workout/react-api/API/signup.php'; 
+  const apiUrl = 'http://localhost/SI_workout-main/react-api/API/signup.php'; 
 
   const handleSubmit = async (e) => {
       e.preventDefault();

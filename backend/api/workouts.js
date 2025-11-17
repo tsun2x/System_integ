@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE = 'http://localhost/react-api/API/workouts.php';
+const API_BASE = 'http://localhost/SI_workout-main/react-api/API/workouts.php';
 
 export const fetchExercises = (params = {}) =>
   axios.get(API_BASE, { params: { action: 'list', offset: 0, limit: 10, ...params } }).then(r => r.data);

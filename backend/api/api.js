@@ -1,4 +1,4 @@
-const API_URL = "http://localhost/System_integ/backend/api/";
+const API_URL = "http://localhost/SI_workout-main/backend/api/";
 
 export const postData = async (endpoint, data) => {
   const res = await fetch(API_URL + endpoint, {

@@ -1,4 +1,4 @@
-const API_URL = "http://localhost/System_integ/backend/workout/";
+const API_URL = "http://localhost/SI_workout-main/backend/workout/";
 
 const WorkoutService = {
   async createWorkout(data) {
